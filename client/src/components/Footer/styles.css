@@ -1,0 +1,37 @@
+.Footer {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.Footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.Footer li {
+    list-style-type: none;
+}
+
+.Footer li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4C2160;
+    border-right: 2px solid #4C2160;
+    padding: 0 .25rem;
+}
+
+.contact {
+    border: 0 !important;
+}
+
+.Footer p {
+    margin: .5rem 0;
+    font-size: 14px;
+}
+
+.Footer img {
+    padding-top: .1.5rem;
+}
