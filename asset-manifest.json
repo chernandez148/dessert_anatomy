@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dessert_anatomy/static/css/main.e0821ff2.css",
-    "main.js": "/dessert_anatomy/static/js/main.3b64b163.js",
+    "main.css": "/dessert_anatomy/static/css/main.2fbbaa30.css",
+    "main.js": "/dessert_anatomy/static/js/main.5a162af0.js",
     "static/media/insta-2.png": "/dessert_anatomy/static/media/insta-2.e4f25c53521d936f6685.png",
     "static/media/crafted-with-heartfelt-care.png": "/dessert_anatomy/static/media/crafted-with-heartfelt-care.de98bd6afb30260ce5d0.png",
     "static/media/insta-3.png": "/dessert_anatomy/static/media/insta-3.bb0a26bcb1e15f203cec.png",
@@ -20,13 +20,12 @@
     "static/media/yelp-banner.jpg": "/dessert_anatomy/static/media/yelp-banner.e0b412bda446b8c69cba.jpg",
     "static/media/logo.png": "/dessert_anatomy/static/media/logo.29c3756678ee67175ebc.png",
     "static/media/insta-6.jpg": "/dessert_anatomy/static/media/insta-6.c76699d3016603961004.jpg",
-    "static/media/mobile-menu-background.jpg": "/dessert_anatomy/static/media/mobile-menu-background.99c8d6c30903c327c174.jpg",
     "index.html": "/dessert_anatomy/index.html",
-    "main.e0821ff2.css.map": "/dessert_anatomy/static/css/main.e0821ff2.css.map",
-    "main.3b64b163.js.map": "/dessert_anatomy/static/js/main.3b64b163.js.map"
+    "main.2fbbaa30.css.map": "/dessert_anatomy/static/css/main.2fbbaa30.css.map",
+    "main.5a162af0.js.map": "/dessert_anatomy/static/js/main.5a162af0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0821ff2.css",
-    "static/js/main.3b64b163.js"
+    "static/css/main.2fbbaa30.css",
+    "static/js/main.5a162af0.js"
   ]
 }
