@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/dessert_anatomy/static/css/main.d8123662.css",
-    "main.js": "/dessert_anatomy/static/js/main.4d495ba5.js",
+    "main.css": "/dessert_anatomy/static/css/main.699f9ac5.css",
+    "main.js": "/dessert_anatomy/static/js/main.982698d1.js",
     "static/media/insta-2.png": "/dessert_anatomy/static/media/insta-2.e4f25c53521d936f6685.png",
     "static/media/crafted-with-heartfelt-care.png": "/dessert_anatomy/static/media/crafted-with-heartfelt-care.de98bd6afb30260ce5d0.png",
     "static/media/insta-3.png": "/dessert_anatomy/static/media/insta-3.bb0a26bcb1e15f203cec.png",
     "static/media/circle.png": "/dessert_anatomy/static/media/circle.7cd3a909cc1c30868f07.png",
     "static/media/insta-5.png": "/dessert_anatomy/static/media/insta-5.c1460c2d8723a484177d.png",
     "static/media/we-cater.jpg": "/dessert_anatomy/static/media/we-cater.a6b0c5ed3c25d7b07116.jpg",
-    "static/media/heart.png": "/dessert_anatomy/static/media/heart.6e47f9f7ea8e759343ce.png",
+    "static/media/heart.png": "/dessert_anatomy/static/media/heart.babf82857bcccf02c722.png",
     "static/media/badge.png": "/dessert_anatomy/static/media/badge.3f3a1893957778a28df1.png",
     "static/media/we-offer-special-orders.jpg": "/dessert_anatomy/static/media/we-offer-special-orders.0e060264d835d1421d87.jpg",
     "static/media/insta-1.png": "/dessert_anatomy/static/media/insta-1.1c20e42e06e71a7f82f1.png",
     "static/media/insta-4.png": "/dessert_anatomy/static/media/insta-4.6ec1a01a2b4ba66c3d4b.png",
     "static/media/treat-yourself.jpg": "/dessert_anatomy/static/media/treat-yourself.9260a5ffd54bb14fb6c3.jpg",
-    "static/media/yelp-background.jpg": "/dessert_anatomy/static/media/yelp-background.672f3ff4f6551c18a533.jpg",
     "static/media/hero-background.jpg": "/dessert_anatomy/static/media/hero-background.4eeb97bae6ced4cc85df.jpg",
     "static/media/hero-mobile-background.jpg": "/dessert_anatomy/static/media/hero-mobile-background.8daafc22f67766fb4c2b.jpg",
     "static/media/flower.png": "/dessert_anatomy/static/media/flower.3d1483c8ae86fc3323cd.png",
+    "static/media/yelp-banner.jpg": "/dessert_anatomy/static/media/yelp-banner.e0b412bda446b8c69cba.jpg",
     "static/media/logo.png": "/dessert_anatomy/static/media/logo.29c3756678ee67175ebc.png",
+    "static/media/insta-6.jpg": "/dessert_anatomy/static/media/insta-6.c76699d3016603961004.jpg",
     "static/media/mobile-menu-background.jpg": "/dessert_anatomy/static/media/mobile-menu-background.99c8d6c30903c327c174.jpg",
     "index.html": "/dessert_anatomy/index.html",
-    "main.d8123662.css.map": "/dessert_anatomy/static/css/main.d8123662.css.map",
-    "main.4d495ba5.js.map": "/dessert_anatomy/static/js/main.4d495ba5.js.map"
+    "main.699f9ac5.css.map": "/dessert_anatomy/static/css/main.699f9ac5.css.map",
+    "main.982698d1.js.map": "/dessert_anatomy/static/js/main.982698d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8123662.css",
-    "static/js/main.4d495ba5.js"
+    "static/css/main.699f9ac5.css",
+    "static/js/main.982698d1.js"
   ]
 }
