@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dessert_anatomy/static/css/main.699f9ac5.css",
+    "main.css": "/dessert_anatomy/static/css/main.46ab792c.css",
     "main.js": "/dessert_anatomy/static/js/main.982698d1.js",
     "static/media/insta-2.png": "/dessert_anatomy/static/media/insta-2.e4f25c53521d936f6685.png",
     "static/media/crafted-with-heartfelt-care.png": "/dessert_anatomy/static/media/crafted-with-heartfelt-care.de98bd6afb30260ce5d0.png",
@@ -22,11 +22,11 @@
     "static/media/insta-6.jpg": "/dessert_anatomy/static/media/insta-6.c76699d3016603961004.jpg",
     "static/media/mobile-menu-background.jpg": "/dessert_anatomy/static/media/mobile-menu-background.99c8d6c30903c327c174.jpg",
     "index.html": "/dessert_anatomy/index.html",
-    "main.699f9ac5.css.map": "/dessert_anatomy/static/css/main.699f9ac5.css.map",
+    "main.46ab792c.css.map": "/dessert_anatomy/static/css/main.46ab792c.css.map",
     "main.982698d1.js.map": "/dessert_anatomy/static/js/main.982698d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.699f9ac5.css",
+    "static/css/main.46ab792c.css",
     "static/js/main.982698d1.js"
   ]
 }
