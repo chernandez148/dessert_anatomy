@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
 }
 
 .Testimonies p {
@@ -22,9 +22,11 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
-.testimonies-wrapper h4 {
+
+.inner-testimonies-wrapper h4 {
     font-weight: 400;
     width: 600px;
     font-style: italic;
@@ -32,10 +34,24 @@
     text-align: center;
 }
 
+.author {
+    margin: 0 !important;
+}
+
 .testimonies-wrapper button {
     background-color: transparent;
     border: 0;
     color: #d3d3d3;
+}
+
+.testimonies-wrapper button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .inner-testimonies-wrapper h4 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px) {

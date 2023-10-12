@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CgMenuRightAlt } from 'react-icons/cg';
 import { IoClose } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 function Navbar() {
@@ -18,11 +19,11 @@ function Navbar() {
         <div className='Navbar'>
             <nav className='desktop-nav'>
                 <div className="nav-left">
-                    <a className='' href='#'>OUR STORY</a>
-                    <a className='' href='#'>MENU</a>
+                    <Link to="/about">OUR STORY</Link>
+                    <Link to="/menu">MENU</Link>
                 </div>
                 <div className="nav-center">
-                    <h3>DESSERT ANATOMY</h3>
+                    <Link to="/">DESSERT ANATOMY</Link>
                 </div>
                 <div className="nav-right">
                     <a className='' href='#'>ORDER</a>

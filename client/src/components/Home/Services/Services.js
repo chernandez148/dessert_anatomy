@@ -1,8 +1,9 @@
 import React from 'react'
-import tratYourself from '../../assets/treat-yourself.jpg'
-import craftedWithHeartfeltCare from '../../assets/crafted-with-heartfelt-care.png'
-import weOfferSpecialOrders from '../../assets/we-offer-special-orders.jpg'
-import weCater from '../../assets/we-cater.jpg'
+import { Link } from 'react-router-dom';
+import tratYourself from '../../../assets/treat-yourself.jpg'
+import craftedWithHeartfeltCare from '../../../assets/crafted-with-heartfelt-care.png'
+import weOfferSpecialOrders from '../../../assets/we-offer-special-orders.jpg'
+import weCater from '../../../assets/we-cater.jpg'
 import './styles.css'
 
 function Services() {
@@ -16,7 +17,7 @@ function Services() {
                         Filipino pastries, with a heavenly ube
                         treat that's a sweet slice of paradise!
                     </p>
-                    <button>MENU</button>
+                    <button><Link to="/menu">MENU</Link></button>
                 </div>
             </div>
             <div className='service-two'>

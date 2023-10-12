@@ -24,15 +24,26 @@
 }
 
 .instagram-wrapper img {
-    width: 246.738px;
+    width: 200px;
 }
 
 .Instagram button {
     margin: 1.5rem auto;
+    margin-bottom: 0;
     width: fit-content;
     padding: 0.75rem 1rem;
     border: 0;
     background-color: #4C2160;
     color: white;
     font-size: 14px;
+}
+
+.Instagram button:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 1860px) {
+    .instagram-wrapper {
+        justify-content: center;
+    }
 }

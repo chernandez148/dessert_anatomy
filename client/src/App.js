@@ -1,27 +1,24 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Services from './components/Services/Services';
-import Category from './components/Category/Category';
-import Yelp from './components/Yelp/Yelp';
-import Testimonies from './components/Testimonies/Testimonies';
-import Instagram from './components/Instagram/Instagram';
-import Support from './components/Support/Support';
+import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
+import Menu from './components/Menu/Menu';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Services />
-      <Category />
-      <Yelp />
-      <Testimonies />
-      <Instagram />
-      <Support />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+
   );
 }
 

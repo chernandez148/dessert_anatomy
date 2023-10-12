@@ -35,6 +35,12 @@
 
 .category-wrapper img {
     width: 200px;
+    transition: filter .25s ease-in-out;
+}
+
+.category-wrapper img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px gray);
 }
 
 .category-wrapper h4 {
