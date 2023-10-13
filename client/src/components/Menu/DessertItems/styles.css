@@ -1,0 +1,92 @@
+.DessertItems {
+    flex-direction: column;
+    display: flex;
+}
+
+.DessertItems h4,
+.DessertItems p {
+    margin: 0;
+    text-align: center;
+}
+
+.DessertItems p {
+    font-size: 12px;
+}
+
+.dessert-items-list {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 1rem;
+    justify-content: center;
+}
+
+.dessert-item-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    box-shadow: 0 0 18px 3px #e5e5e5;
+    border-radius: 8px;
+    margin: 1rem;
+    justify-content: space-around;
+    transition: box-shadow .5s ease-in-out;
+    width: 150px;
+}
+
+.dessert-item-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 18px 3px #adadad;
+}
+
+.dessert-item-card img {
+    width: 150px;
+}
+
+.dessert-item-card p {
+    margin: .5rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 110px;
+}
+
+.dessert-item-card span {
+    font-size: 14px;
+}
+
+.dessert-item-card button {
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    width: fit-content;
+    background-color: #4C2160;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+    .dessert-item-card {
+        width: 117px;
+    }
+
+    .dessert-item-card img {
+        width: 100px;
+    }
+
+    .dessert-item-card button {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .dessert-item-card {
+        width: 96px;
+    }
+}
+
+@media (max-width: 315px) {
+    .dessert-item-card {
+        width: 100%;
+    }
+}

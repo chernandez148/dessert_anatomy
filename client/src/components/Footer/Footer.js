@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom';
+
 import './styles.css'
 
 function Footer() {
@@ -9,10 +11,10 @@ function Footer() {
                 <li><a href='#'>OUR STORY</a></li>
                 <li><a href='#'>MENU</a></li>
                 <li><a href='#'>ORDER</a></li>
-                <li><a className='contact' href='#'>ONTACT</a></li>
+                <li><a className='contact' href='#'>CONTACT</a></li>
             </ul>
             <p>All Rights Reserved © Christian Hernandez 2023 </p>
-            <img src={logo} width="125px" />
+            <Link to="/"><img src={logo} alt='logo' width="125px" /></Link>
         </div>
     )
 }
