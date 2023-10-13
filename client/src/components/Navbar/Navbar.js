@@ -21,7 +21,7 @@ function Navbar() {
             <nav className='desktop-nav'>
                 <div className="nav-left">
                     <Link to="/about">OUR STORY</Link>
-                    <Link to="/menu">MENU</Link>
+                    <Link to="/dessert_anatomy/menu">MENU</Link>
                 </div>
                 <div className="nav-center">
                     <Link to="/">DESSERT ANATOMY</Link>
@@ -37,7 +37,7 @@ function Navbar() {
                     <img src={logo} className='logo' alt='logo' width="100px" />
                     <div className='nav-links'>
                         <a onClick={handleCloseMenu} className='' href='#'>OUR STORY</a>
-                        <a onClick={handleCloseMenu} className='' href='#'>MENU</a>
+                        <Link to="/dessert_anatomy/menu" onClick={handleCloseMenu}>MENU</Link>
                         <a onClick={handleCloseMenu} className='' href='#'>ORDER</a>
                         <a onClick={handleCloseMenu} className='' href='#'>CONTACT</a>
                     </div>

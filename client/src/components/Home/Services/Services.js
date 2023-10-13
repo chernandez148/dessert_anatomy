@@ -17,7 +17,7 @@ function Services() {
                         Filipino pastries, with a heavenly ube
                         treat that's a sweet slice of paradise!
                     </p>
-                    <button><Link to="/menu">MENU</Link></button>
+                    <button><Link to="/dessert_anatomy/menu">MENU</Link></button>
                 </div>
             </div>
             <div className='service-two'>
