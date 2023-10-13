@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dessert_anatomy/static/css/main.8240185c.css",
+    "main.css": "/dessert_anatomy/static/css/main.e6ed5af7.css",
     "main.js": "/dessert_anatomy/static/js/main.8da393e9.js",
     "static/media/artisan-cheese-ensaymada.png": "/dessert_anatomy/static/media/artisan-cheese-ensaymada.83b80d4b22a097effda8.png",
     "static/media/spanish-bread.png": "/dessert_anatomy/static/media/spanish-bread.2409f77fc9430b5d483f.png",
@@ -41,11 +41,11 @@
     "static/media/japanese-cheesecake.png": "/dessert_anatomy/static/media/japanese-cheesecake.93b6fa56d3e1f3488868.png",
     "static/media/maiz-con-yelo.png": "/dessert_anatomy/static/media/maiz-con-yelo.33ed912d39ad84d8348e.png",
     "index.html": "/dessert_anatomy/index.html",
-    "main.8240185c.css.map": "/dessert_anatomy/static/css/main.8240185c.css.map",
+    "main.e6ed5af7.css.map": "/dessert_anatomy/static/css/main.e6ed5af7.css.map",
     "main.8da393e9.js.map": "/dessert_anatomy/static/js/main.8da393e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8240185c.css",
+    "static/css/main.e6ed5af7.css",
     "static/js/main.8da393e9.js"
   ]
 }
