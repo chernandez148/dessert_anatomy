@@ -1,8 +1,8 @@
 import React from 'react'
-import heart from '../../../assets/heart.png'
-import badge from '../../../assets/badge.png'
-import flower from '../../../assets/flower.png'
-import circle from '../../../assets/circle.png'
+import heart from '../../../assets/categories/heart.png'
+import badge from '../../../assets/categories/badge.png'
+import flower from '../../../assets/categories/flower.png'
+import circle from '../../../assets/categories/circle.png'
 import './styles.css'
 
 function Category() {

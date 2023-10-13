@@ -1,13 +1,13 @@
 import React from 'react'
-import haloHalo from '../../../assets/halo-halo.png'
-import flan from '../../../assets/flan.png'
-import japaneseCheesecake from '../../../assets/japanese-cheesecake.png'
-import brazoDeMercedes from '../../../assets/brazo-de-mercedes.png'
-import maizConYelo from '../../../assets/maiz-con-yelo.png'
-import bukoPandan from '../../../assets/buko-pandan.png'
-import spanishBread from '../../../assets/spanish-bread.png'
-import ubeSansRival from '../../../assets/ube-sansrival.png'
-import ubeCupcake from '../../../assets/ube-cupcake.png'
+import haloHalo from '../../../assets/menu/halo-halo.png'
+import flan from '../../../assets/menu/flan.png'
+import japaneseCheesecake from '../../../assets/menu/japanese-cheesecake.png'
+import brazoDeMercedes from '../../../assets/menu/brazo-de-mercedes.png'
+import maizConYelo from '../../../assets/menu/maiz-con-yelo.png'
+import bukoPandan from '../../../assets/menu/buko-pandan.png'
+import spanishBread from '../../../assets/menu/spanish-bread.png'
+import ubeSansRival from '../../../assets/menu/ube-sansrival.png'
+import ubeCupcake from '../../../assets/menu/ube-cupcake.png'
 import './styles.css'
 
 function PopularItems() {
@@ -34,7 +34,7 @@ function PopularItems() {
                         <img src={item.image} alt={item.title} />
                         <p>{item.title}</p>
                         <span>{item.price}</span>
-                        <button>Add to cart</button>
+                        <button>More Info</button>
                     </div>
                 ))}
             </div>

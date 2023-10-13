@@ -1,16 +1,16 @@
 import React from 'react'
-import ubeCheesecake from '../../../assets/ube-cheesecake.png'
-import japaneseCheesecake from '../../../assets/japanese-cheesecake.png'
-import brazoDeMercedes from '../../../assets/brazo-de-mercedes.png'
-import bukoPandan from '../../../assets/buko-pandan.png'
-import spanishBread from '../../../assets/spanish-bread.png'
-import ubeSansRival from '../../../assets/ube-sansrival.png'
-import ubeCupcake from '../../../assets/ube-cupcake.png'
-import artisanCheeseEnsaymada from '../../../assets/artisan-cheese-ensaymada.png'
-import ubeCheesePandesal from '../../../assets/use-cheese-pandesal.png'
-import rockyRoadCupcake from '../../../assets/rocky-road-cupcake.png'
-import ubeIceCream from '../../../assets/ube-ice-cream.png'
-import bananaCreamCheeseUbeMuffin from '../../../assets/banana-cream-cheese-ube-muffin.png'
+import ubeCheesecake from '../../../assets/menu/ube-cheesecake.png'
+import japaneseCheesecake from '../../../assets/menu/japanese-cheesecake.png'
+import brazoDeMercedes from '../../../assets/menu/brazo-de-mercedes.png'
+import bukoPandan from '../../../assets/menu/buko-pandan.png'
+import spanishBread from '../../../assets/menu/spanish-bread.png'
+import ubeSansRival from '../../../assets/menu/ube-sansrival.png'
+import ubeCupcake from '../../../assets/menu/ube-cupcake.png'
+import artisanCheeseEnsaymada from '../../../assets/menu/artisan-cheese-ensaymada.png'
+import ubeCheesePandesal from '../../../assets/menu/use-cheese-pandesal.png'
+import rockyRoadCupcake from '../../../assets/menu/rocky-road-cupcake.png'
+import ubeIceCream from '../../../assets/menu/ube-ice-cream.png'
+import bananaCreamCheeseUbeMuffin from '../../../assets/menu/banana-cream-cheese-ube-muffin.png'
 import './styles.css'
 
 function DessertItems() {
@@ -33,14 +33,14 @@ function DessertItems() {
     return (
         <div className='DessertItems'>
             <h4>Dessert Items</h4>
-            <p>Try our most popular items.</p>
+            <p>Try our sweet desserts.</p>
             <div className='dessert-items-list'>
                 {dessertItems.map((item) => (
                     <div className='dessert-item-card' key={item.id}>
                         <img src={item.image} alt={item.title} />
                         <p>{item.title}</p>
                         <span>{item.price}</span>
-                        <button>Add to cart</button>
+                        <button>More Info</button>
                     </div>
                 ))}
             </div>
