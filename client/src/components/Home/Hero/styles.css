@@ -1,6 +1,6 @@
 .Hero {
     height: 750px;
-    background-image: url('../../../assets/hero-background.jpg');
+    background-image: url('../../../assets/hero/hero-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,10 +49,15 @@
     cursor: pointer;
 }
 
+.hero-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     .Hero {
         height: 100svh;
-        background-image: url('../../../assets/hero-mobile-background.jpg');
+        background-image: url('../../../assets/hero/hero-mobile-background.jpg');
     }
 
     .hero-wrapper {

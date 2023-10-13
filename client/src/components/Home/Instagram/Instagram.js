@@ -1,10 +1,10 @@
 import React from 'react'
-import image1 from '../../../assets/insta-1.png'
-import image2 from '../../../assets/insta-2.png'
-import image3 from '../../../assets/insta-3.png'
-import image4 from '../../../assets/insta-4.png'
-import image5 from '../../../assets/insta-5.png'
-import image6 from '../../../assets/insta-6.jpg'
+import image1 from '../../../assets/instagram/insta-1.png'
+import image2 from '../../../assets/instagram/insta-2.png'
+import image3 from '../../../assets/instagram/insta-3.png'
+import image4 from '../../../assets/instagram/insta-4.png'
+import image5 from '../../../assets/instagram/insta-5.png'
+import image6 from '../../../assets/instagram/insta-6.jpg'
 import './styles.css'
 
 function Instagram() {

@@ -1,8 +1,9 @@
 import React from 'react'
-import heart from '../../../assets/heart.png'
-import badge from '../../../assets/badge.png'
-import flower from '../../../assets/flower.png'
-import circle from '../../../assets/circle.png'
+import heart from '../../../assets/categories/heart.png'
+import badge from '../../../assets/categories/badge.png'
+import flower from '../../../assets/categories/flower.png'
+import circle from '../../../assets/categories/circle.png'
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 function Category() {
@@ -13,12 +14,12 @@ function Category() {
             <hr />
             <div className='category-wrapper'>
                 <div className='category-one'>
-                    <img src={heart} />
+                    <Link to="/dessert_anatomy/menu/dessert_items"><img src={heart} /></Link>
                     <h4>1. DESSERTS</h4>
                     <p>Sweet Temptations, Indulge Today</p>
                 </div>
                 <div className='category-two'>
-                    <img src={badge} />
+                    <Link to="/dessert_anatomy/menu/specialty_items"><img src={badge} /></Link>
                     <h4>2. SPECIALTY DRINKS</h4>
                     <p>Sweet Temptations, Indulge Today</p>
                 </div>

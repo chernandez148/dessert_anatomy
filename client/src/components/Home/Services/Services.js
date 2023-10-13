@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import tratYourself from '../../../assets/treat-yourself.jpg'
-import craftedWithHeartfeltCare from '../../../assets/crafted-with-heartfelt-care.png'
-import weOfferSpecialOrders from '../../../assets/we-offer-special-orders.jpg'
-import weCater from '../../../assets/we-cater.jpg'
+import tratYourself from '../../../assets/services/treat-yourself.jpg'
+import craftedWithHeartfeltCare from '../../../assets/services/crafted-with-heartfelt-care.png'
+import weOfferSpecialOrders from '../../../assets/services/we-offer-special-orders.jpg'
+import weCater from '../../../assets/services/we-cater.jpg'
 import './styles.css'
 
 function Services() {

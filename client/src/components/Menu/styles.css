@@ -1,0 +1,8 @@
+.Menu button {
+    transition: background-color .5s ease-in-out;
+}
+
+.Menu button:hover {
+    cursor: pointer;
+    background-color: #623f73;
+}
