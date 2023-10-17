@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dessert_anatomy/static/css/main.eca6ab49.css",
-    "main.js": "/dessert_anatomy/static/js/main.27864869.js",
+    "main.js": "/dessert_anatomy/static/js/main.e595ad0c.js",
     "static/media/artisan-cheese-ensaymada.png": "/dessert_anatomy/static/media/artisan-cheese-ensaymada.83b80d4b22a097effda8.png",
     "static/media/spanish-bread.png": "/dessert_anatomy/static/media/spanish-bread.2409f77fc9430b5d483f.png",
     "static/media/ube-ice-cream.png": "/dessert_anatomy/static/media/ube-ice-cream.4f64b4f9a729783bca51.png",
@@ -42,10 +42,10 @@
     "static/media/maiz-con-yelo.png": "/dessert_anatomy/static/media/maiz-con-yelo.33ed912d39ad84d8348e.png",
     "index.html": "/dessert_anatomy/index.html",
     "main.eca6ab49.css.map": "/dessert_anatomy/static/css/main.eca6ab49.css.map",
-    "main.27864869.js.map": "/dessert_anatomy/static/js/main.27864869.js.map"
+    "main.e595ad0c.js.map": "/dessert_anatomy/static/js/main.e595ad0c.js.map"
   },
   "entrypoints": [
     "static/css/main.eca6ab49.css",
-    "static/js/main.27864869.js"
+    "static/js/main.e595ad0c.js"
   ]
 }
