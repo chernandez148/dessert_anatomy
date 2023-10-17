@@ -11,7 +11,7 @@ function SpecialtyItems() {
     ]
 
     return (
-        <div className='SpecialtyItems'>
+        <div className='SpecialtyItems category' id='SpecialtyItems'>
             <h4>Specialty Drink Items</h4>
             <p>Our Specialty Drinks.</p>
             <div className='specialty-items-list'>

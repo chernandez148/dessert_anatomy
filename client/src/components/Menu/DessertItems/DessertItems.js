@@ -31,7 +31,7 @@ function DessertItems() {
     ]
 
     return (
-        <div className='DessertItems'>
+        <div className='DessertItems category' id='DessertItems' >
             <h4>Dessert Items</h4>
             <p>Try our sweet desserts.</p>
             <div className='dessert-items-list'>

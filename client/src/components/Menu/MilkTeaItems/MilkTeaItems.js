@@ -16,7 +16,7 @@ function MilkTeaItems() {
     ]
 
     return (
-        <div className='MilkTeaItems'>
+        <div className='MilkTeaItems category' id='MilkTeaItems'>
             <h4>Milk Tea Items</h4>
             <p>Our MilkTea Deserts.</p>
             <div className='milk-tea-items-list'>

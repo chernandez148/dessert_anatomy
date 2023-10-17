@@ -25,7 +25,7 @@ function PopularItems() {
     ]
 
     return (
-        <div className='PopularItems'>
+        <div className='PopularItems' id='PopularItems'>
             <h4>Popular Items</h4>
             <p>Try our most popular items.</p>
             <div className='popular-items-list'>

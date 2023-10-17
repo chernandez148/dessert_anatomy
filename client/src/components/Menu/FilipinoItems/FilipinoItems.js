@@ -11,7 +11,7 @@ function FilipinoItems() {
     ]
 
     return (
-        <div className='FilipinoItems'>
+        <div className='FilipinoItems category' id='FilipinoItems'>
             <h4>Filipino Items</h4>
             <p>Our Filipino Deserts.</p>
             <div className='filipino-items-list'>
